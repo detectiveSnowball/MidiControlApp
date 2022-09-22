@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="OIF1rB" name="midiControl" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="an91Bu" name="midiControl">
+    <GROUP id="{B50A2802-D224-A4E2-0C38-367302F684DE}" name="Source">
+      <FILE id="dvEuP3" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="GwjoP6" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="F9kNFh" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <ANDROIDSTUDIO targetFolder="Builds/Android">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="midiControl"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="midiControl"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../GitHub/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../GitHub/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../GitHub/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../GitHub/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../GitHub/JUCE/modules"/>
+      </MODULEPATHS>
+    </ANDROIDSTUDIO>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
